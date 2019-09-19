@@ -10,7 +10,7 @@ Sterk aangeraden extensies:
 - [TS Lint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin)
 
 ### Node JS
-Installeert de Node JS runtime en NPM. De LTS versie is noodzakelijk. [Klik hier om te downloaden](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi).
+Installeert de Node JS runtime en NPM. De LTS versie is noodzakelijk. [Klik hier om LTS versie te downloaden](https://nodejs.org/dist/v10.16.3/node-v10.16.3-x64.msi).
 
 Installatie status kan gemakkelijk nagekeken worden door de volgende commando's in te geven in een command prompt window:
 ```cmd
@@ -35,8 +35,8 @@ Check of git geïnstalleerd is via het commando:
 ```
 git --version
 ```
-Meestal wordt dit via Visual Studio of andere source control software mee geïnstalleerd, de meest recente versie is 2.23. Moest dit nog niet geïnstalleerd zijn, [klik hier om te downloaden](https://git-scm.com/download/win). 
-Updaten kan via onderstaand commando (vanaf git 2.16 reeds geïnstalleerd):
+Meestal wordt dit via Visual Studio of andere source control software mee geïnstalleerd, de meest recente versie is 2.23. Moest dit nog niet geïnstalleerd zijn, [klik hier om de laatste versie te downloaden](https://git-scm.com/download/win). 
+Updaten kan via onderstaand commando (indien git 2.16 of recenter reeds geïnstalleerd):
 ```
 git update-git-for-windows
 ```
