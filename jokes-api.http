@@ -1,0 +1,21 @@
+@baseUrl = https://api.chucknorris.io/jokes
+
+### GetCategories
+# @name category
+GET {{baseUrl}}/categories
+
+### GetRandom
+# @name randomJoke
+GET {{baseUrl}}/random
+
+### GetById
+@jId = {{randomJoke.response.body.$.id}}
+GET {{baseUrl}}/{{jId}}
+
+### GetFromCategory
+@cat = {{category.response.body.$[3]}}
+GET {{baseUrl}}/random?category={{cat}}
+
+### Search
+@query = 'kill'
+GET {{baseUrl}}/search?query={{query}}
