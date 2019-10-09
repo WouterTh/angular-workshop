@@ -25,7 +25,7 @@ Als npm geïnstalleerd is, kan Angular gemakkelijk geïnstalleerd worden via npm
 ```bash
 npm install @angular/cli@latest -g
 ```
-De versienummer kan geverifieerd worden via onderstaand commando en zou rond versie 6.3 moeten zitten
+De versienummer kan geverifieerd worden via onderstaand commando en zou rond versie 8.3 moeten zitten
 ```bash
 ng --version
 ```
