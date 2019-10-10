@@ -7,6 +7,7 @@ import { ListComponent } from './views/list/list.component';
 import { DetailComponent } from './views/detail/detail.component';
 import { SharedModule } from '../../shared/shared.module';
 import { NavigationComponent } from './components/navigation/navigation.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
   ],
   imports: [
     CommonModule,
+    HttpClientModule,
     SharedModule,
     JokeRoutingModule
   ]
