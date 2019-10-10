@@ -8,6 +8,7 @@ import { DetailComponent } from './views/detail/detail.component';
 import { SharedModule } from '../../shared/shared.module';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { HttpClientModule } from '@angular/common/http';
+import { JokeComponent } from './components/joke/joke.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     RandomComponent,
     ListComponent,
     DetailComponent,
-    NavigationComponent
+    NavigationComponent,
+    JokeComponent
   ],
   imports: [
     CommonModule,

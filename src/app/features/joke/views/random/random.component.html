@@ -1,4 +1,8 @@
-<app-toolbar><app-navigation></app-navigation></app-toolbar>
+<app-toolbar>
+    <app-navigation></app-navigation>
+</app-toolbar>
 <ng-container *ngIf="joke$ | async as joke">
-    <p>{{joke.text}}</p>
+    <div class="m-1">
+        <app-joke [joke]="joke" (refresh)="onRefresh()" (favorite)="onFavorite($event)"></app-joke>
+    </div>
 </ng-container>
