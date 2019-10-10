@@ -6,13 +6,15 @@ import { RandomComponent } from './views/random/random.component';
 import { ListComponent } from './views/list/list.component';
 import { DetailComponent } from './views/detail/detail.component';
 import { SharedModule } from '../../shared/shared.module';
+import { NavigationComponent } from './components/navigation/navigation.component';
 
 
 @NgModule({
   declarations: [
     RandomComponent,
     ListComponent,
-    DetailComponent
+    DetailComponent,
+    NavigationComponent
   ],
   imports: [
     CommonModule,
