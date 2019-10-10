@@ -6,7 +6,7 @@ const routes: Routes = [{
   loadChildren: () => import('./features/joke/joke.module').then(mod => mod.JokeModule)
 }, {
   path: '',
-  redirectTo: '/jokes',
+  redirectTo: '/jokes/random',
   pathMatch: 'full'
 }];
 
