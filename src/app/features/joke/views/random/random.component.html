@@ -1,2 +1,4 @@
 <app-toolbar><app-navigation></app-navigation></app-toolbar>
-<p>random works!</p>
+<ng-container *ngIf="joke$ | async as joke">
+    <p>{{joke.text}}</p>
+</ng-container>

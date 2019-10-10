@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class JokeStore extends ObservableStore<JokeState> {
-  baseUrl: 'https://api.chucknorris.io/jokes';
+  baseUrl = 'https://api.chucknorris.io/jokes';
 
   constructor(private http: HttpClient) {
     super({ trackStateHistory: true });
