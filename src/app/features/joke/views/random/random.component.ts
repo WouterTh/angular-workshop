@@ -19,5 +19,5 @@ export class RandomComponent implements OnInit {
 
   onRefresh = () => this.joke$ = this.store.getRandom();
 
-  onFavorite = (joke: Joke) => console.log(joke);
+  onFavorite = (joke: Joke) => this.store.addToFavorites(joke);
 }
